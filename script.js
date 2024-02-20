@@ -119,7 +119,7 @@ function zerar(){
     clearInterval(intervaloId);
     intervaloId = null;
 }
-//teste02
+//teste
 function mostraTempo(){
     const minutos = new Date(contagemEmSegundos * 1000);
     const minutosFormatado = minutos.toLocaleTimeString('pt-Br', {minute: '2-digit', second: '2-digit'});
